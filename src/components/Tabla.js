@@ -12,7 +12,8 @@ function Tabla() {
                 <tr>
                     <th>Név</th>
                     <th>Leírás</th>
-                    <th></th>
+                    <th>Kép</th>
+                    <th>Törlés</th>
                 </tr>
             </thead>
             <tbody>

@@ -7,7 +7,8 @@ function ReceptUrlap() {
     const [receptek, setReceptek] = useState({
         cat_id: '',  
         name: '',
-        desc: ''
+        desc: '',
+        url: ''
     });
 
    
@@ -86,6 +87,19 @@ function ReceptUrlap() {
                         id="name"
                         name="name"
                         value={receptek.name}
+                        onChange={valtozasKezeles}
+                        required
+                    />
+                </div>
+
+                <div className="mb-3">
+                    <label htmlFor="url" className="form-label">Kép link:</label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="url"
+                        name="url"
+                        value={receptek.url}
                         onChange={valtozasKezeles}
                         required
                     />

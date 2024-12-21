@@ -7,7 +7,11 @@ function Sor(props) {
     return (
         <tr>
             <td>{props.elem.name}</td>
-            <td>{props.elem.desc}</td>
+            <td>{props.elem.desc} 
+                </td>
+                <td> <a href={props.elem.url} >
+                        Megnyitás
+                    </a></td>
             <td><button onClick={()=>{deleteData(`recipes/${props.elem.id}`,setReceptek)}}>x</button></td>
         </tr>
     );

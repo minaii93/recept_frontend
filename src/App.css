@@ -1,47 +1,47 @@
 
 
-/* A teljes alkalmazás konténere */
+
 .App {
-  background-color: #eeecd6; /* Fehér háttérszín */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Finom árnyék */
-  border-radius: 8px; /* Lekerekített sarkok */
-  padding: 20px; /* Belső térköz */
-  width: 90%; /* Alap szélesség */
-  max-width: 700px; /* Maximális szélesség */
-  text-align: center; /* Szöveg középre igazítása */
+  background-color: #eeecd6; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 8px; 
+  padding: 20px; 
+  width: 90%; 
+  max-width: 900px; 
+  text-align: center; 
   margin: 0 auto;
   align-items: center;
 }
 
-/* Navigációs sáv */
+
 nav {
-  background-color: #c3913a; /* Zöld háttérszín */
-  padding: 15px 20px; /* Fel- és alul padding */
-  text-align: center; /* Középre igazított szöveg */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Finom árnyék */
+  background-color: #c3913a; 
+  padding: 15px 20px; 
+  text-align: left; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 nav a {
-  color: white; /* Fehér színű linkek */
-  text-decoration: none; /* Linkek aláhúzása eltávolítva */
-  font-size: 1.2rem; /* Kicsit nagyobb betűméret */
-  margin: 0 15px; /* Elválasztás a linkek között */
-  padding: 10px 15px; /* Gombhoz hasonló megjelenés */
-  border-radius: 4px; /* Lekerekített sarkok */
-  transition: background-color 0.3s, color 0.3s; /* Simább animáció */
+  color: white; 
+  text-decoration: none; 
+  font-size: 1.2rem; 
+  margin: 0 15px; 
+  padding: 10px 15px; 
+  border-radius: 4px; 
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 nav a:hover {
-  background-color: #c75412; /* Sötétebb zöld hover állapot */
-  color: #f4f4f4; /* Link színének világosítása hover állapotban */
+  background-color: #c75412; 
+  color: #f4f4f4; 
 }
 
 nav a.active {
-  background-color: #333; /* Aktív link háttérszíne */
-  color: white; /* Aktív link színe */
+  background-color: #333;
+  color: white; 
 }
 
-/* Reszponzív navigáció mobil eszközökhöz */
+
 @media (max-width: 768px) {
   nav {
     padding: 10px;
