@@ -1,0 +1,64 @@
+
+
+/* A teljes alkalmazás konténere */
+.App {
+  background-color: #eeecd6; /* Fehér háttérszín */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Finom árnyék */
+  border-radius: 8px; /* Lekerekített sarkok */
+  padding: 20px; /* Belső térköz */
+  width: 90%; /* Alap szélesség */
+  max-width: 700px; /* Maximális szélesség */
+  text-align: center; /* Szöveg középre igazítása */
+  margin: 0 auto;
+  align-items: center;
+}
+
+/* Navigációs sáv */
+nav {
+  background-color: #c3913a; /* Zöld háttérszín */
+  padding: 15px 20px; /* Fel- és alul padding */
+  text-align: center; /* Középre igazított szöveg */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Finom árnyék */
+}
+
+nav a {
+  color: white; /* Fehér színű linkek */
+  text-decoration: none; /* Linkek aláhúzása eltávolítva */
+  font-size: 1.2rem; /* Kicsit nagyobb betűméret */
+  margin: 0 15px; /* Elválasztás a linkek között */
+  padding: 10px 15px; /* Gombhoz hasonló megjelenés */
+  border-radius: 4px; /* Lekerekített sarkok */
+  transition: background-color 0.3s, color 0.3s; /* Simább animáció */
+}
+
+nav a:hover {
+  background-color: #c75412; /* Sötétebb zöld hover állapot */
+  color: #f4f4f4; /* Link színének világosítása hover állapotban */
+}
+
+nav a.active {
+  background-color: #333; /* Aktív link háttérszíne */
+  color: white; /* Aktív link színe */
+}
+
+/* Reszponzív navigáció mobil eszközökhöz */
+@media (max-width: 768px) {
+  nav {
+    padding: 10px;
+  }
+  nav a {
+    font-size: 1rem;
+    margin: 0 10px;
+  }
+}
+
+.App-header {
+  background-color: #e19f34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
